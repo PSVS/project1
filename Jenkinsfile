@@ -11,7 +11,7 @@ pipeline {
         stage('Webapp Sourcecode Checkout') {
             agent {
                 node {
-                    label 'functionality1'
+                    label 'any'
                 }
             }
             steps {
@@ -37,7 +37,7 @@ pipeline {
         stage('Artifact Install') {
             agent {
                 node {
-                    label 'fucntionality1'
+                    label 'any'
                 }
             }
             steps {
