@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GITHUB_TOKEN = credentials('github-token-id')
+        GITHUB_TOKEN = credentials('github-token')
         WEBAPP_DIR = '/'
         DEV_BRANCH = 'functionality1' // Change to 'master' if your branch name is 'master'
     }
